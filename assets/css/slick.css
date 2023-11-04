@@ -4,20 +4,20 @@
 	display: flex;
 }
 
-.header-left{
+.header-left {
 	width: 20%;
 	height: 100%;
 	padding-top: 0.5%;
 	display: flex;
 }
 
-.site-logo{
+.site-logo {
 	width: 95%;
 	height: 100%;
 }
 
 .site-logo a,
-.footer-logo a{
+.footer-logo a {
 	display: flex;
 	width: 100%;
 	height: 100%;
@@ -25,7 +25,7 @@
 	flex-wrap: wrap;
 }
 
-.site-logo img{
+.site-logo img {
 	height: 80px;
 }
 
@@ -122,7 +122,7 @@ div#sliderPortfolio {
 	position: relative;
 	top: 0;
 	left: 0;
-	
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -135,7 +135,7 @@ div#sliderPortfolio {
 	content: "";
 }
 
-#moventslidernow{
+#moventslidernow {
 	position: relative;
 }
 
@@ -202,19 +202,19 @@ div#sliderPortfolio {
 	max-width: 865px !important;
 }
 
-@media  (max-width: 576px) {
+@media (max-width: 576px) {
 	.modal-dialog {
 		max-width: 600px !important;
 	}
 }
 
-@media screen and (max-width: 460px) and (min-width: 340px){
+@media screen and (max-width: 460px) and (min-width: 340px) {
 	.modal-dialog {
 		max-width: 545px !important;
 	}
 }
 
-@media screen and (max-width: 340px) and (min-width: 280px){
+@media screen and (max-width: 340px) and (min-width: 280px) {
 	.modal-dialog {
 		max-width: 400px !important;
 	}
@@ -473,28 +473,32 @@ label {
 	opacity: 0;
 	transition: opacity 0.3s, transform 0.5s;
 }
-.hexagon{
+
+.hexagon {
 	position: relative;
 	width: 450px;
 	height: 500px;
 	margin: 50px 20px 70px;
 }
-.hexagon::before{
+
+.hexagon::before {
 	content: '';
 	position: absolute;
 	bottom: -70px;
 	width: 100%;
 	height: 60px;
 	left: 0;
-	background: radial-gradient(rgba(0,0,0,0.15), transparent);
+	background: radial-gradient(rgba(0, 0, 0, 0.15), transparent);
 	border-radius: 50%;
 	transition: 0.5s;
 }
-.hexagon:hover::before{
+
+.hexagon:hover::before {
 	opacity: 0.8;
 	transform: scale(0.8);
 }
-.hexagon .shape{
+
+.hexagon .shape {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -505,23 +509,23 @@ label {
 }
 
 .hexagon img {
-    height: 100%;
+	height: 100%;
 	width: 100%;
 }
 
-.hexagon .chang{
+.hexagon .chang {
 	left: 3% !important;
-    width: 95% !important;
+	width: 95% !important;
 }
 
 .hexagon .chang,
 .hexagon .change-1,
-.hexagon .change-2{
+.hexagon .change-2 {
 	left: 1% !important;
-    width: 99% !important;
+	width: 99% !important;
 }
 
-.hexagon.hover .shape{
+.hexagon.hover .shape {
 	transform: translateY(-30px);
 }
 
@@ -594,7 +598,7 @@ label {
 
 /* box bootstrab */
 
-@media screen and (max-width: 850px) and (min-width: 350px){
+@media screen and (max-width: 850px) and (min-width: 350px) {
 	.box {
 		height: auto;
 		max-width: 550px;
@@ -621,7 +625,7 @@ label {
 		transition: transform 0.8s ease-in-out, opacity 0.45s linear;
 	}
 
-	.forms-wrap form{
+	.forms-wrap form {
 		max-width: 380px !important;
 	}
 
@@ -658,6 +662,14 @@ label {
 	}
 }
 
+@media screen and (max-width: 580px) and (min-width: 490px) {
+	.header-two .header-navigation .navbar-btn a,
+	.header-three .header-navigation .navbar-btn a{
+		padding: 15px 10px !important;
+		font-size: 12px !important;
+	}
+}
+
 @media (max-width: 530px) {
 	.login-main {
 		padding: 0;
@@ -690,7 +702,7 @@ label {
 		padding-left: 3%;
 	}
 
-	.toggle-box{
+	.toggle-box {
 		padding: 7px 50px !important;
 	}
 
@@ -717,18 +729,19 @@ label {
 
 /*=======  Team  =======*/
 
-.iconsofimgteam{
+.iconsofimgteam {
 	width: 90%;
 }
 
 .member-inner i.fas.fa-user {
-    font-size: 90px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
+	font-size: 90px;
+	height: 200px;
+	display: flex;
+	justify-content: center;
 }
 
-.teamcompany{
+.teamcompany {
 	background: #d7d9f9 !important;
 }
+
 /*=======  Team  =======*/
