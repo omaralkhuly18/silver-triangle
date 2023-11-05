@@ -161,6 +161,10 @@ a {
 	text-decoration: none;
 }
 
+section{
+	overflow: auto;
+}
+
 /*======= Input Styles =======*/
 input,
 textarea,
