@@ -8374,6 +8374,12 @@ img.simpelvedio {
 	right: -30px;
 }
 
+@media screen and (max-width: 550px) and (min-width: 230px){
+	.history-timeline .history-item .number-box {
+		display: none !important;
+	}
+}
+
 @media (max-width: 767px) {
 	.history-timeline .history-item .number-box {
 		left: -100px;
