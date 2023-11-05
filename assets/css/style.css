@@ -8780,6 +8780,10 @@ img.simpelvedio {
 	background-color: #00000042;
 }
 
+.headerbgcontact {
+	background-color: #0900ff3b;
+}
+
 .page-title-area::before,
 .page-services-area::before,
 .page-Contact-area::before,
@@ -8840,6 +8844,10 @@ img.simpelvedio {
 
 .changestyleabout {
 	color: white;
+}
+
+.changestylecontact {
+	color: #0090ff;
 }
 
 @media (max-width: 991px) {
@@ -8943,6 +8951,10 @@ img.simpelvedio {
 
 .activecolorstyle {
 	color: black !important;
+}
+
+.activecolorstylecontact {
+	color: white !important;
 }
 
 /*=======  Products  =======*/
