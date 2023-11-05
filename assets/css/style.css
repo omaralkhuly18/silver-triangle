@@ -8553,7 +8553,15 @@ img.simpelvedio {
 
 .footer-area .footer-widgets .widget.nav-widget .footer-list ul li {
 	line-height: 50px;
-	margin-right: 40px;
+	margin-right: 15px;
+}
+
+.spacebetween{
+	justify-content: space-between !important;
+}
+
+.textcenter {
+    padding: 0 7%;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
