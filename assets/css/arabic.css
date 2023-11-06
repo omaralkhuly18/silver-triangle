@@ -116,7 +116,7 @@ form{
     direction: rtl;
 }
 
-label {
+.input-wrap label {
     right: 0;
     display: flex;
     justify-content: flex-end;
@@ -164,10 +164,7 @@ label {
 /*====== Experience Area Start ======*/
 
 /* Intro Video Start aboutus */
-/* .intro-video-with-shape::before{
-    right: -20px;
-    transform: rotate(270deg);
-} */
+
 /* Intro Video Start aboutus */
 
 /* News Details */
@@ -196,7 +193,8 @@ label {
     right: 0 !important;
 }
 
-.conatct-section-two .contact-form input, .conatct-section-two .contact-form textarea{
+.conatct-section-two .contact-form input, .conatct-section-two .contact-form textarea,
+.input-group input, .input-group textarea, .input-group select{
     direction: rtl;
 }
 /* contact us page */
@@ -208,6 +206,37 @@ label {
 }
 /* FAQ page */
 
+/* checkout */
+.billing-details .form-group input[type=text],
+.billing-details .form-group textarea{
+    direction: rtl;
+}
+
+.billing-details .form-group label{
+    display: flex !important;
+    justify-content: end;
+}
+
+.table{
+    direction: rtl;
+}
+
+.order-details .order-table .table thead tr th:not(:last-child){
+    display: flex;
+}
+
+.order-details .order-table tbody tr td.product-name a{
+    display: flex;
+}
+
+.table .order-subtotal span,
+.table .order-shipping span,
+.table .total-price span {
+    display: flex !important;
+}
+
+/* checkout */
+
 /* footer */
 .footer-logo,
 .footer-area .footer-widgets .widget .widget-title,
@@ -218,5 +247,9 @@ label {
 
 .footer-area .footer-widgets .widget.nav-widget .footer-list ul li i{
     transform: rotate(180deg);
+}
+
+.word-footer{
+    text-align: right;
 }
 /* footer */
