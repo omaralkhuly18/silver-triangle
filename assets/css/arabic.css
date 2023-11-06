@@ -86,6 +86,10 @@
     direction: ltr;
 }
 
+.feature-btn li {
+    display: flex;
+}
+
 /* service-section-two service-items */
 
 /*service-section service-with-shape-two */
