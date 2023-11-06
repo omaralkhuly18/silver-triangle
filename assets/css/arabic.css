@@ -1,14 +1,47 @@
 /* header */
-.header-two .header-navigation .primary-menu li .dd-trigger,
-.header-three .header-navigation .primary-menu li .dd-trigger {
-	left: 5px;
-}
 
 @media (min-width: 992px) and (max-width: 1199px) {
     .header-two .header-navigation .primary-menu li .dd-trigger,
 	.header-three .header-navigation .primary-menu li .dd-trigger{
 		left: -6px !important;
 	}
+}
+
+.header-navigation .primary-menu li .submenu{
+    right: 0 !important;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu.menu-opened {
+	right: 0;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu {
+    right: 0 !important;
+    left: 0 !important;
+}
+
+.header-navigation .nav-close{
+    left: 20px;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu .primary-menu li.current::before{
+    right: -25px;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu .primary-menu li a,
+.header-navigation.breakpoint-on .site-nav-menu .primary-menu li .submenu a,
+.header-navigation .primary-menu li .submenu li a{
+    display: flex !important;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu .primary-menu li .dd-trigger{
+    right: 81% !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.header-navigation.breakpoint-on .site-nav-menu .primary-menu li .submenu{
+    padding-right: 15px !important;
+    padding-left: 0 !important;
 }
 
 .linkdirectionss,
@@ -79,6 +112,20 @@ form{
     right: 0;
 }
 
+.input-field{
+    direction: rtl;
+}
+
+label {
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text{
+    justify-content: flex-end !important;
+}
+
 /* .login-main.sign-up-mode .carousel {
 	right: 0% !important;
 } */
@@ -117,10 +164,10 @@ form{
 /*====== Experience Area Start ======*/
 
 /* Intro Video Start aboutus */
-.intro-video-with-shape::before{
+/* .intro-video-with-shape::before{
     right: -20px;
     transform: rotate(270deg);
-}
+} */
 /* Intro Video Start aboutus */
 
 /* News Details */
@@ -143,8 +190,33 @@ form{
 }
 /* News Details */
 
+/* contact us page */
+.input-group .icon{
+    left: 30px;
+    right: 0 !important;
+}
+
+.conatct-section-two .contact-form input, .conatct-section-two .contact-form textarea{
+    direction: rtl;
+}
+/* contact us page */
+
+/* FAQ page */
+.service-item-eight .services-overlay .icon{
+    right: 20px;
+    left: 20px;
+}
+/* FAQ page */
+
 /* footer */
-.footer-area{
-    direction: ltr;
+.footer-logo,
+.footer-area .footer-widgets .widget .widget-title,
+.footer-area .footer-widgets .widget.nav-widget .footer-list ul li,
+.footer-area .footer-widgets .widget.contact-widget ul li{
+    display: flex;
+}
+
+.footer-area .footer-widgets .widget.nav-widget .footer-list ul li i{
+    transform: rotate(180deg);
 }
 /* footer */
