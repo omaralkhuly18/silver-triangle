@@ -89,6 +89,20 @@
 .service-item-four{
     direction: ltr;
 }
+
+.latest-news-box-three .news-link{
+    right: 40px;
+    transform: rotate(180deg);
+}
+
+.latest-news-box-three .post-content .title a{
+    text-align: right;
+}
+
+.latest-news-box-three .post-content .cat{
+    display: flex;
+    justify-content: flex-end;
+}
 /*service-section service-with-shape-two */
 
 /* call-to-action */
@@ -200,11 +214,56 @@ form{
 /* contact us page */
 
 /* FAQ page */
+.tile-gallery-three .img-two {
+	display: flex;
+    justify-content: flex-end;
+}
+
 .service-item-eight .services-overlay .icon{
     right: 20px;
     left: 20px;
 }
+
+.accordion-four .card .card-header a{
+    text-align: right;
+}
+
+.accordion-four .card .card-header a::before{
+    left: 36px;
+    right: 100% !important;
+}
+
+.accordion-three .card .card-header a::before{
+    left: 36px;
+}
+
+.accordion-four .card .card-header a i{
+    padding-left: 20px;
+    padding-right: 0 !important;
+}
+
+.textltr,
+.textalignltr,
+.card-body p,
+.accordion-four .card .card-body p,
+.service-item-eight .services-overlay p{
+    text-align: right;
+}
+
 /* FAQ page */
+
+/* our-campany page */
+.features-sub .input-box input,
+.dirctionswordsinputs{
+    text-align: right;
+}
+
+.displayflexbutt{
+    display: flex;
+    justify-content: end;
+}
+
+/* our-campany page */
 
 /* checkout */
 .billing-details .form-group input[type=text],
@@ -236,6 +295,82 @@ form{
 }
 
 /* checkout */
+
+/* services-details */
+
+/* .positionheight{
+    position: relative;
+    height: 440px;
+}
+
+.service-details-text-block .service-support-btn{
+    position: absolute;
+    margin-bottom: 0%;
+    right: 0;
+} */
+
+.service-support-btn{
+    width: 100%;
+    height: 85px;
+    display: flex !important;
+    align-items: center;
+    justify-content: end;
+    background: none !important;
+    padding: 0 !important;
+}
+
+.scouerthis {
+    background: #ff5f6e;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 992px){
+    .scouerthis {
+        width: 70% !important;
+    }
+}
+
+@media (min-width: 768px){
+    .scouerthis{
+        width: 44.5%;
+    }
+}
+
+@media (min-width: 550px){
+    .scouerthis{
+        width: 50% !important;
+    }
+}
+
+@media (min-width: 300px){
+    .scouerthis{
+        width: 70% !important;
+    }
+
+    .service-details-text-block .service-support-btn p{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 200px){
+    .scouerthis{
+        width: 80% !important;
+    }
+    .service-details-text-block .service-support-btn p{
+        font-size: 15px;
+    }
+}
+
+.service-details-text-block .service-support-btn i{
+    position: initial !important;
+    font-size: 60px !important;
+    opacity: 0.2;
+}
+
+/* services-details */
 
 /* footer */
 .footer-logo,

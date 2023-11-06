@@ -4097,18 +4097,18 @@ a.colordifrante:hover {
 	font-size: 14px;
 }
 
-.service-details-text-block .service-support-btn span {
+.service-details-text-block .service-support-btn p {
 	color: #fff;
 	font-weight: 700;
-	font-size: 23px;
+	font-size: 19px;
 }
 
 .service-details-text-block .service-support-btn i {
 	position: absolute;
 	top: 8px;
 	left: 10px;
-	opacity: 0.05;
-	color: #fff;
+	opacity: 0.2;
+	color: black;
 	font-size: 60px;
 	z-index: -1;
 }
@@ -11247,6 +11247,8 @@ img.simpelvedio {
 	position: relative;
 	z-index: 1;
 	display: inline-block;
+	display: flex;
+    justify-content: flex-end;
 }
 
 .img-two.text-right .imgmovent {
@@ -11256,6 +11258,10 @@ img.simpelvedio {
 
 .imgmovent img {
 	width: 95%;
+}
+
+.img-two {
+    width: 100%;
 }
 
 @media (max-width: 575px) {
@@ -11271,8 +11277,7 @@ img.simpelvedio {
 }
 
 .tile-gallery-three .img-two img {
-	border: 6px solid #f5faff;
-	box-shadow: 0 0 10px 5px darkcyan;
+    width: 80%;
 }
 
 /*=======  Coming Soon  =======*/
