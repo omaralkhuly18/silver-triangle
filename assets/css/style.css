@@ -3801,8 +3801,9 @@ a.colordifrante:hover {
 	color: #fff;
 	font-size: 30px;
 	line-height: 1;
-	text-align: center;
-	line-height: 70px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-item-eight .services-overlay p {
