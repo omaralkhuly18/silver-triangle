@@ -11273,9 +11273,9 @@ img.simpelvedio {
     width: 100%;
 }
 
-.img-one img {
+/* .img-one img {
     width: 85%;
-}
+} */
 
 @media (max-width: 575px) {
 	.tile-gallery-three .img-two {
