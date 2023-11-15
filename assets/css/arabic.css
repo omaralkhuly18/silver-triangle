@@ -177,8 +177,27 @@
 
 
 /* box bootstrab */
-.forms-wrap {
-    right: 0 !important;
+.forms-wrap{
+    right: 0;
+    left: auto;
+}
+.carousel{
+    left: 0;
+    right: auto;
+}
+@media screen and (max-width: 850px) and (min-width: 350px) {
+
+	form.sign-up-form {
+		transform: translateX(100%);
+	}
+
+	.login-main.sign-up-mode form.sign-in-form {
+		transform: translateX(-100%);
+	}
+
+	.login-main.sign-up-mode form.sign-up-form {
+		transform: translateX(0%);
+	}
 }
 
 form {
@@ -186,8 +205,12 @@ form {
 }
 
 .login-main.sign-up-mode .forms-wrap {
-    left: 55% !important;
-    right: 0;
+    right: 55% !important;
+}
+
+.login-main.sign-up-mode .carousel{
+    left: 45% !important;
+    right: auto !important;
 }
 
 .input-field {
