@@ -390,7 +390,7 @@ input[type=radio] {
 		-ms-transform: translateY(0);
 		transform: translateY(0);
 		right: auto;
-		left: 0;
+		left: 90px;
 		width: 50px;
 	}
 }
@@ -1628,24 +1628,30 @@ a.colordifrante:hover {
 }
 
 @media screen and (max-width: 300px) and (min-width: 220px) {
-	.header-two .header-navigation .navbar-btn, 
-	.header-three .header-navigation .navbar-btn{
+
+	.header-two .header-navigation .navbar-btn,
+	.header-three .header-navigation .navbar-btn {
 		width: 30% !important;
 	}
-	.cdnfont{
+
+	.cdnfont {
 		font-size: 26px !important;
 		margin-left: auto !important;
 	}
+
 	.profile_menu_Language {
 		right: 26% !important;
 		width: 40% !important;
 	}
+
 	.sub-menu li {
 		padding: 0 12% !important;
 	}
+
 	.languageicons {
 		font-size: 25px;
 	}
+
 	.header-two .header-navigation .nav-toggler,
 	.header-three .header-navigation .nav-toggler {
 		border: 1px solid black !important;
@@ -1653,7 +1659,8 @@ a.colordifrante:hover {
 		width: 29px !important;
 		padding: 8px 4px !important;
 	}
-	.header-navigation.breakpoint-on .site-nav-menu{
+
+	.header-navigation.breakpoint-on .site-nav-menu {
 		width: 215px !important;
 	}
 }
@@ -2459,6 +2466,10 @@ a.colordifrante:hover {
 @media (max-width: 767px) {
 	.banner-slider .banner-text .title {
 		font-size: 48px;
+	}
+
+	span.textltr {
+		font-size: 10px;
 	}
 }
 
@@ -4358,7 +4369,9 @@ a.colordifrante:hover {
 .feature-list li::before {
 	height: 50px;
 	width: 50px;
-	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	line-height: 50px;
 	border-radius: 50%;
 	background: #fff;
@@ -8246,6 +8259,7 @@ img.simpelvedio {
 .page-title-answer {
 	background-color: #00000045;
 	position: relative;
+	margin-bottom: 0.5%;
 }
 
 .page-title-answer::before {
@@ -8297,6 +8311,7 @@ img.simpelvedio {
 	border: 0;
 	border-top: 2px solid transparent;
 	margin-bottom: 20px;
+	justify-content: center;
 	-webkit-box-shadow: 0px 8px 16px 0px rgba(132, 190, 255, 0.1);
 	box-shadow: 0px 8px 16px 0px rgba(132, 190, 255, 0.1);
 }
@@ -8324,7 +8339,9 @@ img.simpelvedio {
 
 @media (max-width: 767px) {
 	.accordion-four .card .card-header a {
-		padding: 22px 50px 22px 20px;
+		padding: 22px 20px 22px 30px;
+		display: flex;
+
 	}
 }
 

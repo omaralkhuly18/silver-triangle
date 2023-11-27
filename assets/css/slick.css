@@ -363,7 +363,7 @@ form.sign-up-form {
 	background: none;
 	border: none;
 	outline: none;
-	border-bottom: 1px solid #bbb;
+	border-bottom: 1px solid #000000;
 	padding: 0;
 	font-size: 0.95rem;
 	color: #151111;
@@ -376,7 +376,7 @@ label {
 	top: 50%;
 	transform: translateY(-50%);
 	font-size: 0.95rem;
-	color: #bbb;
+	color: black;
 	pointer-events: none;
 	transition: 0.4s;
 	margin-bottom: 0 !important;
