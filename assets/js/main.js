@@ -83,6 +83,11 @@ bullets.forEach((bullet) => {
 	bullet.addEventListener("click", moveSlider);
 });
 
+function menuToggleLanguage() {
+	const toggleMenuLang = document.querySelector(".profile_menu_Language");
+	toggleMenuLang.classList.toggle("active");
+  }
+
 
 (function ($) {
 	'use strict';

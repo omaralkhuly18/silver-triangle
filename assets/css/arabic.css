@@ -7,7 +7,41 @@
         left: -6px !important;
     }
 }
+.profile_menu_Language{
+    left: 15%;
+    right: auto !important;
+    text-align: right;
+}
+@media screen and (max-width: 995px) and (min-width: 750px) {
+	.profile_menu_Language {
+		left: 27% !important;
+        right: auto !important;
+	}
+}
 
+@media screen and (max-width: 750px) and (min-width: 550px) {
+	.profile_menu_Language {
+		left: 27% !important;
+        right: auto !important;
+		width: 20% !important;
+	}
+}
+
+@media screen and (max-width: 550px) and (min-width: 450px) {
+	.profile_menu_Language {
+		left: 28% !important;
+        right: auto !important;
+		width: 25% !important;
+	}
+}
+
+@media screen and (max-width: 450px) and (min-width: 300px) {
+	.profile_menu_Language {
+		left: 28% !important;
+        right: auto !important;
+		width: 27% !important;
+	}
+}
 .header-navigation .primary-menu li .submenu {
     right: 0 !important;
 }
@@ -67,9 +101,19 @@
     transform: rotate(182deg);
 }
 
+
 /* header */
 
 /* home page */
+.floatleftdir{
+    float: left;
+}
+.textalignright{
+    text-align: right;
+}
+.banner-text{
+    text-align: right;
+}
 .👉 {
     transform: rotate(180deg);
 }
@@ -86,7 +130,16 @@
 .service-item-four .icon{
     margin-left: 79% !important;
 }
-
+.tile-gallery-two .img-one {
+    text-align: start;
+    height: 375px;
+}
+.tile-gallery-two .img-one img {
+    width: 100%;
+}
+.tile-gallery-two .img-two {
+    margin-top: -28% !important;
+}
 .service-item-four .services-content .service-link{
     direction: rtl;
 }
@@ -137,9 +190,6 @@
 /* soft-blue-bg section-gap */
 
 /* service-section-two service-items */
-.service-item-two {
-    direction: ltr;
-}
 
 .feature-btn li {
     display: flex;
@@ -169,21 +219,18 @@
 /*service-section service-with-shape-two */
 
 /* call-to-action */
-.arabicstyle {
-    direction: ltr;
-}
 
 /* call-to-action */
 
 
 /* box bootstrab */
 .forms-wrap{
-    right: 0;
-    left: auto;
-}
-.carousel{
     left: 0;
     right: auto;
+}
+.carousel{
+    right: 14px;
+    left: auto;
 }
 @media screen and (max-width: 850px) and (min-width: 350px) {
 
@@ -205,12 +252,13 @@ form {
 }
 
 .login-main.sign-up-mode .forms-wrap {
-    right: 55% !important;
+    left: 55% !important;
+    right: auto !important;
 }
 
 .login-main.sign-up-mode .carousel{
-    left: 45% !important;
-    right: auto !important;
+    right: 45% !important;
+    left: auto !important;
 }
 
 .input-field {
@@ -287,9 +335,7 @@ form {
 /* section about page */
 
 /*====== Experience Area Start ======*/
-.dirctionsaboutus {
-    direction: ltr;
-}
+
 
 /*====== Experience Area Start ======*/
 
