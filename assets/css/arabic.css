@@ -225,7 +225,12 @@
 
 .latest-news-box-three .post-content .cat {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+}
+
+.services-overlay .title {
+    padding-left: 0 !important;
+    padding-right: 80px;
 }
 
 /*service-section service-with-shape-two */
@@ -246,7 +251,7 @@
     left: auto;
 }
 
-@media screen and (max-width: 850px) and (min-width: 350px) {
+/* @media screen and (max-width: 850px) and (min-width: 350px) {
 
     form.sign-up-form {
         transform: translateX(100%);
@@ -259,7 +264,7 @@
     .login-main.sign-up-mode form.sign-up-form {
         transform: translateX(0%);
     }
-}
+} */
 
 .login-main.sign-up-mode .forms-wrap {
     left: 55% !important;
@@ -278,6 +283,7 @@
 
 .input-wrap label {
     right: 0;
+    left: auto;
     display: flex;
     justify-content: flex-end;
 }
@@ -459,8 +465,8 @@
 
 /* contact us page */
 .input-group .icon {
-    left: 30px;
-    right: 0 !important;
+    right: 90%;
+    left: auto !important;
 }
 
 .conatct-section-two .contact-form input,
@@ -616,6 +622,14 @@
 /* FAQ page */
 
 /* our-campany page */
+.dirctionsaboutus {
+    direction: ltr;
+}
+a.service-link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 .features-sub .input-box input,
 .dirctionswordsinputs {
     text-align: right;
@@ -637,6 +651,7 @@
 
 .transformrotates {
     transform: rotate(180deg);
+    margin-right: 3%;
 }
 
 .feature-list li::before {
@@ -747,6 +762,32 @@
 }
 
 /* services-details */
+
+/* company page */
+
+/* company page */
+
+/* work page */
+.case-details-area .case-details-thumb img {
+    margin-left: 3%;
+}
+.case-details-area .case-live .case-live-item-area .case-live-item i{
+    right: 10px;
+    left: auto !important;
+}
+.case-details-area .case-details-content .case-details-case img{
+    right: 0;
+    left: auto !important;
+}
+.case-details-area .case-details-content .case-details-case p {
+    padding-left: 0 !important;
+    padding-right: 256px;
+}
+.case-details-area .case-video-thumb{
+    display: flex;
+    justify-content: center;
+}
+/* work page */
 
 /* footer */
 .footer-logo,
