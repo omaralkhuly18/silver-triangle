@@ -5025,7 +5025,13 @@ img.simpelvedio {
 	max-height: 95px;
 	overflow: hidden;
 }
-
+.wihiimg{
+	height: 400px;
+}
+.myFunction{
+	display: flex;
+    justify-content: center;
+}
 @media (min-width: 992px) and (max-width: 1199px) {
 	.portfolio-item-three .post-content {
 		left: 25px;

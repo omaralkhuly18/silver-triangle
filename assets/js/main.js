@@ -86,8 +86,19 @@ bullets.forEach((bullet) => {
 function menuToggleLanguage() {
 	const toggleMenuLang = document.querySelector(".profile_menu_Language");
 	toggleMenuLang.classList.toggle("active");
-  }
+}
 
+function myFunction() {
+	var divNoneBlack = document.getElementById("aitemsdisplay");
+	var divFlexNone = document.getElementById("noneflexnone");
+	if (divNoneBlack.style.display === "none") {
+		divNoneBlack.style.display = "flex";
+		divFlexNone.style.display = "none";
+	} else {
+		divNoneBlack.style.display = "none";
+		divFlexNone.style.display = "flex";
+	}
+}
 
 (function ($) {
 	'use strict';

@@ -675,6 +675,26 @@ a.service-link{
 
 /* our-campany page */
 
+/* protfolio details*/
+i.transformar {
+    padding-left: 15px;
+    padding-right: 0 !important;
+    transform: rotate(180deg);
+}
+.blog-sidebar .widget:not(:last-child){
+    padding: 35px 10px
+}
+.blog-sidebar .widget .news-feed-items .news-feed-item img{
+    right: 0;
+    left: auto !important;
+    width: 20%;
+}
+.rowflexnone{
+    width: 80%;
+    margin-right: 25%;
+}
+/* protfolio details*/
+
 /* checkout */
 .billing-details .form-group input[type=text],
 .billing-details .form-group textarea {
